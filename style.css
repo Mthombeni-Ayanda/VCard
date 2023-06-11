@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-image: url("Assets/brr.jpeg");
+
+
+}
+.Home {
+    background: url("brr.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+.Home-content {
+    max-width: 800px;
+    padding-left: 10%;
+  
+}
+.Home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+   
+   
+}
+.Home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #106294;
+    height: 40px;
+}
+.Home-content p{ 
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0 30px;
+}
+
+.Home-content .btn-box {
+    width: 345px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.link{
+    color: #106294;
+    text-align: justify;
+    justify-content: space-around;
+    padding-bottom: 3%;
+    font-size: small;
+}
+.call{
+    color: #106294;
+    text-align: justify;
+    height: 10%;
+    font-size: small;
+}
+.address-sci{
+    color: black;
+    margin: 2px;
+    font-style: italic;
+}
+.Home-sci{
+    position:absolute;
+    bottom: 40px;
+    width: 170px;
+    background: transparent;
+    justify-content: space-between;
+    display:inline-flex;
+    margin:0;
+
+} 
+.Home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #081b29;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #081b29;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+
+}
+.Home-sci a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 0%;
+    height: 100%;
+    background: #106294;
+    z-index: -1;
+    transition: .5s;
+}
+.Home-sci a:hover::before {
+    width: 100%;
+}
+.profile{
+  image-resolution: 0;
+  border-radius: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+ 
+}
